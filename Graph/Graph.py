@@ -59,3 +59,7 @@ if __name__ == "__main__":
     print(f"All paths between: {start} and {end}: ", routes.get_paths(start, end))
     print(f"Shortest path from {start} to {end}: ", routes.shortest_path(start, end))
 
+
+# Graph path: {'Mumbai': ['Paris', 'Dubai'], 'Paris': ['Dubai', 'New York'], 'Dubai': ['New York'], 'New York': ['Toronto']}
+# All paths between: Mumbai and New York:  [['Mumbai', 'Paris', 'Dubai', 'New York'], ['Mumbai', 'Paris', 'New York'], ['Mumbai', 'Dubai', 'New York']]
+# Shortest path from Mumbai to New York:  ['Mumbai', 'Paris', 'New York']
